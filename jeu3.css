@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background: repeat center fixed;
+    background-image: url(./rules3.png);
+    position: relative;
+    cursor: url(./ar.png), auto;
+
+}
+
+.img {
+    background-image: url(./there-are-no-rules-on-the-street-youre-free-3658709.png);
+    width: 500px;
+    height: 350px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+
+header {
+    width: 100%; 
+    margin-top: 30px;
+    cursor: url(./ar.png), auto;
+}
+
+nav img {
+    width:120px;
+    height:80px;
+    cursor: url(./ar.png), auto;
+}
+
+ul { 
+    display: flex;
+    justify-content: flex-end;
+    cursor: url(./ar.png), auto;
+ }
+ 
+li { 
+    display: inline; 
+    margin-right: 10px;   
+    cursor: url(./ar.png), auto;
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px 25px;
+     /* background-color: white; */
+     background-image: url(./fdheader.png);
+     background-size: cover;
+     cursor: url(./ar.png), auto;
+
+ }
+ .navlist {
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     cursor: url(./ar.png), auto;
+ }
+
+ .navlist li {
+     padding: 0 15px;
+     font-size: 1.5em;
+     cursor: url(./ar.png), auto;
+ }
+
+ .navlist a {
+     text-decoration: none;
+     color: whitesmoke;
+     cursor: url(./ar.png), auto;
+ }
+
+ .p {
+    font-size: 20px;
+    color: whitesmoke;
+    margin-right: 350px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+      cursor: url(./ar.png), auto;
+  }

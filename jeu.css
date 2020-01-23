@@ -1,0 +1,106 @@
+html body {
+  width: 100%;
+  height: 100%;
+  cursor: url(./cursor\ \(1\).png) auto;
+
+}
+
+@font-face {
+  font-family: "quadranta";
+  src: url(./republika/REPKEXPI.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: no-repeat center fixed;
+  background-image: url(./gob.png);
+  background-size: cover;
+}
+
+#play {
+  width: 600px;
+  height: 150px;
+  background: white;
+  color: red;
+  margin: 150px auto auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  border: 2px solid;
+  border-color: black;
+  animation-name: clignote;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  /* text-decoration: none; */
+  background-image: url(./fdheader.png);
+  cursor: url(./ar.png), auto;
+  text-decoration: none;
+}
+
+@keyframes clignote {
+  0% {
+    box-shadow: 0px 0px 120px black;
+  }
+  50% {
+    box-shadow: 0px 0px 120px white;
+  }
+  100% {
+    box-shadow: 0px 0px 380px black;
+  }
+}
+
+header {
+  width: 100%;
+  margin-top: 30px;
+}
+
+nav img {
+  width: 120px;
+  height: 80px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  /* background-color: white; */
+  background-image: url(./fdheader.png);
+  background-size: cover;
+}
+.navlist {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlist li {
+  padding: 0 15px;
+  font-size: 1.5em;
+}
+
+.navlist a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.p {
+  font-size: 20px;
+  color: whitesmoke;
+  margin-right: 170px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
