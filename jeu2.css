@@ -27,12 +27,12 @@ body {
   /* background-position-x: -85px; */
   width: 350px;
   height: 350px;
-  background-image: url(./pong.png);
+  background-image: url(./pong2.png);
   background-size: cover;
   z-index: 2;
   animation-name: mouvement;
   animation-duration: 12s;
-  animation-delay: 4s;
+  animation-delay: 3s;
   transition-timing-function: ease-in;
   animation-direction: alternate;
   text-indent: -9999px;
@@ -41,12 +41,12 @@ body {
   /* background-position-x: -85px; */
   width: 350px;
   height: 350px;
-  background-image: url(./pong.png);
+  background-image: url(./pong2.png);
   background-size: cover;
   z-index: 3;
   animation-name: mouvement2;
   animation-duration: 12s;
-  animation-delay: 4s;
+  animation-delay: 3s;
   transition-timing-function: ease-in;
   animation-direction: alternate;
   text-indent: -9999px;
@@ -58,12 +58,12 @@ body {
   /* background-position-x: -85px; */
   width: 350px;
   height: 350px;
-  background-image: url(./pong.png);
+  background-image: url(./pong2.png);
   background-size: cover;
   z-index: 5;
   animation-name: mouvement3;
   animation-duration: 12s;
-  animation-delay: 4s;
+  animation-delay: 3s;
   transition-timing-function: ease-in;
   animation-direction: alternate;
   text-indent: -9999px;
@@ -83,8 +83,8 @@ body {
   margin-top: 20px;
   margin-left: 50px;
   animation-name: cache;
-  animation-duration: 12s;
-  animation-delay: 4s;
+  animation-duration: 1200s;
+  animation-delay: 0s;
 }
 
 @keyframes mouvement {
@@ -113,7 +113,7 @@ body {
   }
 
   90% {
-    transform: translateX(700px);
+    transform: translateX(350px);
   }
 
   95% {
@@ -209,7 +209,7 @@ body {
   }
 
   90% {
-    transform: translateX(0px);
+    transform: translateX(-350px);
   }
   100% {
     transform: translateX(-350px);
@@ -235,7 +235,7 @@ body {
     visibility: visible;
   }
 
-  10% {
+  0.5% {
     visibility: hidden;
   }
 
@@ -309,21 +309,19 @@ li {
   cursor: url(./one.png), auto;
 }
 
-
 .btns {
   position: relative;
   top: 120px;
   display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
   align-content: center;
   margin-top: 100px;
-  
 }
 
-button {
+.btn {
   visibility: hidden;
   animation-name: time;
   animation-duration: 30s;
@@ -335,8 +333,23 @@ button {
   animation-name: clignote;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
+  cursor: url(./one.png), auto;
 }
 
+.but {
+  height: 100px;
+  width: 200px;
+  font-size: 20px;
+  /* top: 100px; */
+    position: relative;
+    display: flex;
+    margin-top: 230px;
+    margin-bottom: -290px;
+    margin-left: 610px;
+    color: whitesmoke;
+    justify-content: center;
+    background-image: url(./fdheader.png);
+}
 @keyframes time {
 }
 
@@ -393,3 +406,43 @@ button {
 #time {
   color: whitesmoke;
 }
+
+.dabWin {
+  width: 200px;
+  height: 200px;
+  margin-top: -600px;
+  margin-left: 350px;
+}
+
+.dab {
+  width: 200px;
+  height: 200px;
+  animation-name: fadein;
+  animation-duration: 4s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+

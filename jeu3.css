@@ -2,6 +2,7 @@
     box-sizing: border-box;
   }
 body {
+    height: 100vh;
     background: repeat center fixed;
     background-image: url(./rules3.png);
     position: relative;
@@ -15,6 +16,7 @@ body {
     height: 350px;
     margin-left: 450px;
     margin-top: 50px;
+    cursor: url(./ar.png), auto;
 }
 
 
