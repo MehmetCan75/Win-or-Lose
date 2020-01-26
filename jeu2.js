@@ -46,7 +46,7 @@ function gobelet() {
         }
     })
 }
- // redo the animation when we click on "play again"
+btn.onclick = animate; // redo the animation when we click on "play again"
 
 function animate() {
     var images = document.querySelector('#images');
@@ -68,8 +68,8 @@ function endGameWin() {
     btn.style.visibility = "visible";
 
     btn.onclick = function but() {
-        if (document.querySelector(".dab")) {
-            document.querySelector(".dab").remove()
+        if (document.querySelector(".dabWin")) {
+            document.querySelector(".dabWin").remove()
         }
         btn.style.visibility = "hidden";
         var youwin = document.querySelector(".youWin");
